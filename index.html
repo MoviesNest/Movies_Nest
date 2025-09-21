@@ -1,0 +1,222 @@
+here<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieNest - موقع الأفلام</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8ff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      margin: 2rem 0 1rem;
+      color: #2575fc;
+      border-bottom: 2px solid #2575fc;
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+    .movies {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .movie {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .movie:hover {
+      transform: translateY(-5px);
+    }
+    .movie img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .movie .info {
+      padding: 15px;
+    }
+    .movie .info h3 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+    .movie .info p {
+      margin: 0 0 10px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .rating {
+      color: #f5a623;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .movie a {
+      display: inline-block;
+      text-decoration: none;
+      background: #2575fc;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+    }
+    .movie a:hover {
+      background: #6a11cb;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MovieNest 🎬</h1>
+    <p>أفضل مكان لمشاهدة تقييمات وأصناف الأفلام</p>
+  </header>
+
+  <div class="container">
+
+    <h2>🎥 أفلام الأكشن</h2>
+    <div class="movies">
+      <div class="movie">
+        <img src="https://i.ibb.co/QXy0J0N/johnwick.jpg" alt="John Wick">
+        <div class="info">
+          <h3>John Wick</h3>
+          <p>قاتل محترف يعود للإنتقام بعد فقدان أعز ما يملك.</p>
+          <div class="rating">⭐⭐⭐⭐☆ (4.5)</div>
+          <a href="https://www.imdb.com/title/tt2911666/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+
+    <div class="movies">
+      <div class="movie">
+        <img src="https://i.ibb.co/DRcF7t7/themask.jpg" alt="The Mask">
+        <div class="info">
+          <h3>The Mask</h3>
+          <p>رجل عادي يتحول لشخصية مضحكة خارقة بقناع سحري.</p>
+          <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+          <a href="https://www.imdb.com/title/tt0110475/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+      
+          <div class="movies">
+      <div class="movie">
+        <img src="https://i.ibb.co/DRcF7t7/themask.jpg" alt="The Mask">
+        <div class="info">
+          <h3>The Mask</h3>
+          <p>رجل عادي يتحول لشخصية مضحكة خارقة بقناع سحري.</p>
+          <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+          <a href="https://www.imdb.com/title/tt0110475/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+      
+          <div class="movies">
+      <div class="movie">
+        <img src="https://i.ibb.co/DRcF7t7/themask.jpg" alt="The Mask">
+        <div class="info">
+          <h3>The Mask</h3>
+          <p>رجل عادي يتحول لشخصية مضحكة خارقة بقناع سحري.</p>
+          <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+          <a href="https://www.imdb.com/title/tt0110475/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+      
+      
+      <div class="movie">
+        <img src="https://i.ibb.co/X44wYxR/madmax.jpg" alt="Mad Max">
+        <div class="info">
+          <h3>Mad Max: Fury Road</h3>
+          <p>مغامرة مثيرة في صحراء ما بعد نهاية العالم.</p>
+          <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+          <a href="https://www.imdb.com/title/tt1392190/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>😂 أفلام الكوميديا</h2>
+    <div class="movies">
+      <div class="movie">
+        <img src="https://i.ibb.co/DRcF7t7/themask.jpg" alt="The Mask">
+        <div class="info">
+          <h3>The Mask</h3>
+          <p>رجل عادي يتحول لشخصية مضحكة خارقة بقناع سحري.</p>
+          <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+          <a href="https://www.imdb.com/title/tt0110475/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+
+      <div class="movie">
+        <img src="https://i.ibb.co/7VNQBNg/hangover.jpg" alt="The Hangover">
+        <div class="info">
+          <h3>The Hangover</h3>
+          <p>رحلة مضحكة مليئة بالمواقف الغريبة بعد ليلة صاخبة.</p>
+          <div class="rating">⭐⭐⭐⭐ (4.0)</div>
+          <a href="https://www.imdb.com/title/tt1119646/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>🚀 أفلام الخيال العلمي</h2>
+    <div class="movies">
+      <div class="movie">
+        <img src="https://i.ibb.co/DV6H9LS/inception.jpg" alt="Inception">
+        <div class="info">
+          <h3>Inception</h3>
+          <p>رحلة داخل الأحلام والخيال بقيادة كريستوفر نولان.</p>
+          <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+          <a href="https://www.imdb.com/title/tt1375666/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+
+      <div class="movie">
+        <img src="https://i.ibb.co/3zHpmhy/matrix.jpg" alt="The Matrix">
+        <div class="info">
+          <h3>The Matrix</h3>
+          <p>مغامرة خيالية تكشف أن العالم مجرد محاكاة.</p>
+          <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+          <a href="https://www.imdb.com/title/tt0133093/" target="_blank">شاهد التفاصيل</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 MovieNest | موقع مخصص لعشاق الأفلام</p>
+  </footer>
+
+</body>
+</html>
